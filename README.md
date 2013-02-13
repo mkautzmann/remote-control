@@ -15,7 +15,7 @@ A tool to control the slides of your HTML5 presentation through a cell phone.
 * [Get involved](#get-involved)
 
 ## How it works
-Remote Control is based on [WebSockets](https://developer.mozilla.org/en-US/docs/WebSockets), so you may have a good and modern browser, like Firefox, Chrome or Opera.  
+Remote Control is based on [WebSockets](https://developer.mozilla.org/en-US/docs/WebSockets), so you may have a good and modern browser, like Firefox, Chrome, Safari, Opera or IE10. 
 
 The phone send a message through WebSockets to the server.   
 The server receive the message as an action that must be executed, like 'next' or 'previous'.   

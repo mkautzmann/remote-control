@@ -11,7 +11,7 @@ Remote Control é uma ferramenta para controlar suas apresentações HTML5 remot
 * [Envolva-se com o projeto](#envolva-se-com--projeto)
 
 ## Como funciona
-O Remote Control é baseado em [WebSockets](https://developer.mozilla.org/en-US/docs/WebSockets), então, você deve ter um Browser moderno, como o Firefox, Chrome ou Opera.  
+O Remote Control é baseado em [WebSockets](https://developer.mozilla.org/en-US/docs/WebSockets), então, você deve ter um Browser moderno, como o Firefox, Chrome, Safari, Opera ou IE10.  
 O celular envia uma mensagem via WebSockets para o servidor.  
 O servidor recebe esta mensagem como uma ação que deve ser executada, como por exemplo: 'next' ou 'previous'.  
 Esta ação é emitida para a apresentação HTML5.
