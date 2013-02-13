@@ -8,7 +8,7 @@ Remote Control é uma ferramenta para controlar suas apresentações HTML5 remot
 * [Dependências](#dependências)
 * [Como instalar](#como-instalar)
 * [Como usar](#como-usar)
-* [Envolva-se com o projet](#envolva-se-com--projeto)
+* [Envolva-se com o projeto](#envolva-se-com--projeto)
 
 ## Como funciona
 O Remote Control é baseado em [WebSockets](https://developer.mozilla.org/en-US/docs/WebSockets), então, você deve ter um Browser moderno, como o Firefox, Chrome ou Opera.  
@@ -26,7 +26,7 @@ Esta ação é emitida para a apresentação HTML5.
 Por enquanto, você deve instalar manulamente :(  
 
 Primeiro, se você não possui o node, instale-o.   
-Pesquise do Google, caso você não saiba como fazer isso.  
+Pesquise no Google, caso você não saiba como fazer isso.  
 Instale o socket.io:
 ```cli
 npm install socket.io
@@ -38,7 +38,7 @@ Rode o arquivo app.js:
 node app.js
 ```
 O servidor ficará disponível na porta 81 [http:localhost:81](http:localhost:81), mas você pode mudar isso se preferir.  
-Agora, você precisa adicionar 2 biblioteca JavaScript na sua apresentação HTML5:
+Agora, você precisa adicionar 2 bibliotecas JavaScript na sua apresentação HTML5:
 ```html
 <script src="http://localhost:81/socket.io/socket.io.js"></script>
 <script src="path/to/remote-control.js"></script>
